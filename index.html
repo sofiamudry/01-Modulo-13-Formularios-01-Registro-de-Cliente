@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Cliente</title>
+</head>
+<body>
+    <form action="" class="register">
+        <section class="form-element">
+            <label for="user-name">Nombre</label>
+            <input name="user-name" id="user-name" type="text" placeholder="Ada">
+        </section>
+        <section class="form-element">
+            <label for="user-lastname">Apellido</label>
+            <input name="user-lastname" type="text" placeholder="Lovelace">
+        </section>
+        <section class="form-element">
+            <label for="user-dni">DNI</label>
+            <input name="user-dni" id="user-dni" type="number" placeholder="99.999.999" min="1" max="99999999" pattern="">
+        </section>
+        <section class="form-element">
+            <label for="user-email">Email</label>
+            <input name="user-email" id="user-email" type="email" placeholder="adalovelace@gmail.com">
+        </section>
+        <section class="form-element">
+            <label for="name">Contraseña</label>
+            <input name="user-password" id="user-password" type="password" placeholder="abc123" minlength="8" maxlength="16" >
+        </section>
+        <section class="form-element">
+            <label for="terms">Términos y condiciones de uso</label>
+            <input name="terms" id="terms" type="text" placeholder="Ada">
+        </section>
+    </form>
+</body>
+</html>
